@@ -13,7 +13,7 @@
 
 
 // Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic,400italic,700italic);
 
 // Override theme settings (see ../template/settings.scss)
 $mainFont: 'Ubuntu', sans-serif;
@@ -62,3 +62,8 @@ $heading4Size: 1.00em;
 	font-size: 1em;
 	text-transform: uppercase;
 }
+
+.reveal ul {
+	font-weight: 400;
+}
+
