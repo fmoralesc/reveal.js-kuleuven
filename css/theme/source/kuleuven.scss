@@ -18,27 +18,49 @@
 
 
 // Override theme settings (see ../template/settings.scss)
-$mainFont: 'Open Sans', 'Latin Modern',  sans-serif;
-$mainColor: #333;
-$headingColor: #333;
+$mainFont: 'Ubuntu', sans-serif;
+$mainColor: #fff;
+$mainFontSize: 24pt;
+$headingColor: #fff;
+$headingFont: 'Ubuntu', sans-serif;
+$headingFontWeight: 600;
 $headingTextShadow: none;
 $backgroundColor: #1D8DB0;
 $linkColor: #8b743d;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(79, 64, 28, 0.99);
-$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
+$heading1TextShadow: none;
+$heading1Size: 2em;
+$heading2Size: 1.5em;
+$heading3Size: 1.15em;
+$heading4Size: 1.00em;
 
 // Background generator
 @mixin bodyBackground() {
-  background: $backgroundColor;
-  background-image: url("./assets/kul.png"), url("./assets/sedes.png"), linear-gradient(#fff 7%, $backgroundColor 7%);;
+  background-image: url("./assets/kul.png"), url("./assets/sedes.png"), linear-gradient(#fff 7%, $backgroundColor 7%);
   background-position: 3% 2%, right bottom, top;
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 20%, 40%,  100%;
+  background-size: 15%, 40%,  100%;
 }
 
-
+.reveal section {
+	text-align: left;
+}
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal .title {
+	padding-top: 12%;
+}
+
+.reveal .subtitle {
+	padding-top: 2%;
+}
+
+.reveal div .speaker {
+	padding-top: 15%;
+	font-size: 1em;
+	text-transform: uppercase;
+}
