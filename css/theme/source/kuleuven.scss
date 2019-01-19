@@ -1,7 +1,7 @@
 /**
- * Beige theme for reveal.js.
+ * KU Leuven theme for reveal.js.
  *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ * Copyright (C) 2019 Felipe Morales & Lars Arthur Tump
  */
 
 
@@ -24,9 +24,9 @@ $headingFont: 'Ubuntu', sans-serif;
 $headingFontWeight: 600;
 $headingTextShadow: none;
 $backgroundColor: #1D8DB0;
-$linkColor: #8b743d;
+$linkColor: #fff;
 $linkColorHover: lighten( $linkColor, 20% );
-$selectionBackgroundColor: rgba(79, 64, 28, 0.99);
+$selectionBackgroundColor: rgba(18, 60, 117, 0.99);
 $heading1TextShadow: none;
 $heading1Size: 2em;
 $heading2Size: 1.5em;
