@@ -11,10 +11,7 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background-image: url("./assets/kul.png"), url("./assets/sedes.png"), linear-gradient(#fff 7%, #1D8DB0 7%);
-  background-position: 3% 2%, right bottom, top;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 15%, 40%,  100%;
+  background: #1D8DB0;
   background-color: #1D8DB0; }
 
 .reveal {

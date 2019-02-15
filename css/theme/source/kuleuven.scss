@@ -33,13 +33,13 @@ $heading2Size: 1.5em;
 $heading3Size: 1.15em;
 $heading4Size: 1.00em;
 
-// Background generator
-@mixin bodyBackground() {
-  background-image: url("./assets/kul.png"), url("./assets/sedes.png"), linear-gradient(#fff 7%, $backgroundColor 7%);
-  background-position: 3% 2%, right bottom, top;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 15%, 40%,  100%;
-}
+ //Background generator
+//@mixin bodyBackground() {
+  //background-image: url("./assets/kul.png"), url("./assets/sedes.png"), linear-gradient(#fff 7%, $backgroundColor 7%);
+  //background-position: 3% 2%, right bottom, top;
+  //background-repeat: no-repeat, no-repeat, no-repeat;
+  //background-size: 15%, 40%,  100%;
+//}
 
 .reveal section {
 	text-align: left;
