@@ -48,9 +48,14 @@ $heading4Size: 1.00em;
 	}
 }
 
-//.reveal .title-slide h1 {
-	//color: #fff;
-//}
+.reveal .controls button {
+    color: #1D8DB0;
+}
+
+.reveal .progress {
+    background: rgba(0,0,0,0.2);
+    color: #10637D;
+}
 
 .reveal .title {
 	padding-top: 12%;
