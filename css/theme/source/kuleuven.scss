@@ -17,9 +17,9 @@
 
 // Override theme settings (see ../template/settings.scss)
 $mainFont: 'Ubuntu', sans-serif;
-$mainColor: #fff;
+$mainColor: #101010;
 $mainFontSize: 24pt;
-$headingColor: #fff;
+$headingColor: #10637D;
 $headingFont: 'Ubuntu', sans-serif;
 $headingFontWeight: 600;
 $headingTextShadow: none;
@@ -40,6 +40,17 @@ $heading4Size: 1.00em;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal .title-slide, .reveal .structure-slide {
+	color: #fff;
+	h1, h2 {
+	    color: #fff;
+	}
+}
+
+//.reveal .title-slide h1 {
+	//color: #fff;
+//}
 
 .reveal .title {
 	padding-top: 12%;

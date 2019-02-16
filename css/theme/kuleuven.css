@@ -18,7 +18,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 24pt;
   font-weight: normal;
-  color: #fff; }
+  color: #101010; }
 
 ::selection {
   color: #fff;
@@ -45,7 +45,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fff;
+  color: #1D8DB0;
   font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -230,7 +230,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #fff;
+  border: 4px solid #101010;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
@@ -271,6 +271,11 @@ body {
 @media print {
   .backgrounds {
     background-color: #1D8DB0; } }
+
+.reveal .title-slide, .reveal .structure-slide {
+  color: #fff; }
+  .reveal .title-slide h1, .reveal .title-slide h2, .reveal .structure-slide h1, .reveal .structure-slide h2 {
+    color: #fff; }
 
 .reveal .title {
   padding-top: 12%; }
