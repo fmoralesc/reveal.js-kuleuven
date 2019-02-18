@@ -39,6 +39,9 @@
 						<li class="fragment visible">The fifth</li>
 					</ul>
 				</section>
+				<section class="structure-slide">
+					<h1>Part One</h1>
+				</section>
 				<section>
 					<h2>Section Title</h2>
 					<p>This is a test</>
@@ -46,6 +49,8 @@
 				<section>
 					<h2>Another Section Title</h2>
 					<p>This is still a test</>
+				</section>
+				<section data-background-iframe="https://www.youtube.com/embed/qUvf3fOmTTk" data-background-interactive data-autoplay>
 				</section>
 			</div>
 		</div>
@@ -61,6 +66,7 @@
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/math/math.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				],
