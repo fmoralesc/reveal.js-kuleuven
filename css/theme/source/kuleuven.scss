@@ -37,6 +37,10 @@ $heading4Size: 1.00em;
 	text-align: left;
 }
 
+.reveal .title-slide {
+	text-align: center;
+}
+
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
@@ -79,8 +83,17 @@ $heading4Size: 1.00em;
 
 .reveal div .speaker {
 	padding-top: 15%;
-	font-size: 1em;
+	font-size: 1.1em;
 	text-transform: uppercase;
+}
+
+.reveal div .location {
+	padding-top: 1%;
+	font-size: 0.8em;
+}
+
+.reveal div .date {
+	font-size: 0.8em;
 }
 
 .reveal ul {

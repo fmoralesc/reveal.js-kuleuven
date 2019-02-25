@@ -7,6 +7,9 @@
 .reveal section {
   text-align: left; }
 
+.reveal .title-slide {
+  text-align: center; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -299,8 +302,15 @@ body {
 
 .reveal div .speaker {
   padding-top: 15%;
-  font-size: 1em;
+  font-size: 1.1em;
   text-transform: uppercase; }
+
+.reveal div .location {
+  padding-top: 1%;
+  font-size: 0.8em; }
+
+.reveal div .date {
+  font-size: 0.8em; }
 
 .reveal ul {
   font-weight: 400; }
