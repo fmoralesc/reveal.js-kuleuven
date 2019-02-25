@@ -33,6 +33,6 @@ function setBackground(event) {
     };
 }
 
-Reveal.addEventListener( 'ready', setBackground);
+Reveal.addEventListener('ready', setBackground);
 
 Reveal.addEventListener('slidechanged', setBackground);
