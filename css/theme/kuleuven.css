@@ -277,6 +277,13 @@ body {
   .reveal .title-slide h1, .reveal .title-slide h2, .reveal .structure-slide h1, .reveal .structure-slide h2 {
     color: #fff; }
 
+.reveal .slide-number {
+  font-size: 14pt;
+  right: 124px;
+  bottom: 28px;
+  color: #188db0;
+  background-color: transparent; }
+
 .reveal .controls button {
   color: #1D8DB0; }
 

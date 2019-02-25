@@ -48,6 +48,18 @@ $heading4Size: 1.00em;
 	}
 }
 
+.reveal .slide-number {
+	font-size: 14pt;
+	right: 124px;
+	bottom: 28px;
+	color: rgba(24,141,176,1);
+	background-color: transparent;
+}
+
+.reveal .controls {
+	//right: 24px;
+}
+
 .reveal .controls button {
     color: #1D8DB0;
 }
