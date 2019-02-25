@@ -17,9 +17,9 @@
 
 // Override theme settings (see ../template/settings.scss)
 $mainFont: 'Ubuntu', sans-serif;
-$mainColor: #fff;
+$mainColor: #101010;
 $mainFontSize: 24pt;
-$headingColor: #fff;
+$headingColor: #10637D;
 $headingFont: 'Ubuntu', sans-serif;
 $headingFontWeight: 600;
 $headingTextShadow: none;
@@ -33,14 +33,6 @@ $heading2Size: 1.5em;
 $heading3Size: 1.15em;
 $heading4Size: 1.00em;
 
-// Background generator
-@mixin bodyBackground() {
-  background-image: url("./assets/kul.png"), url("./assets/sedes.png"), linear-gradient(#fff 7%, $backgroundColor 7%);
-  background-position: 3% 2%, right bottom, top;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 15%, 40%,  100%;
-}
-
 .reveal section {
 	text-align: left;
 }
@@ -48,6 +40,22 @@ $heading4Size: 1.00em;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal .title-slide, .reveal .structure-slide {
+	color: #fff;
+	h1, h2 {
+	    color: #fff;
+	}
+}
+
+.reveal .controls button {
+    color: #1D8DB0;
+}
+
+.reveal .progress {
+    background: rgba(0,0,0,0.2);
+    color: #10637D;
+}
 
 .reveal .title {
 	padding-top: 12%;

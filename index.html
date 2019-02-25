@@ -24,23 +24,33 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section id="title-slide">
+				<section class="title-slide">
 					<h1 class="title">This is the title of the presentation<!--, Epistemic Pluralism and Ontology--></h2>
 					<h2 class="subtitle">And this is the subtitle</h2>
 					<div class="speaker">Author 1 & Author 2</div>
 				</section>
-				<section>
+				<section class="structure-slide">
 					<h2>Outline</h2>
-					<!--<span class="fragment fade-in">-->
-						<!--<span class="fragment fade-out">I'll fade in, then out</span>-->
-					<!--</span>-->
-					<!--<ul>-->
-					<span class="fragment visible fade-in"><span class="fragment visible fade-out">The first item</span></li>
-						<!--<li class="fragment visible">The first</li>-->
-						<!--<li class="fragment visible">The first</li>-->
-						<!--<li class="fragment visible">The first</li>-->
-						<!--<li class="fragment visible">The first</li>-->
-					<!--</ul>-->
+					<ul>
+						<li class="fragment visible">The first item</li>
+						<li class="fragment visible">The second</li>
+						<li class="fragment visible">The third</li>
+						<li class="fragment visible">The fourth</li>
+						<li class="fragment visible">The fifth</li>
+					</ul>
+				</section>
+				<section class="structure-slide">
+					<h1>Part One</h1>
+				</section>
+				<section>
+					<h2>Section Title</h2>
+					<p>This is a test</>
+				</section>
+				<section>
+					<h2>Another Section Title</h2>
+					<p>This is still a test</>
+				</section>
+				<section data-background-iframe="https://www.youtube.com/embed/qUvf3fOmTTk" data-background-interactive data-autoplay>
 				</section>
 			</div>
 		</div>
@@ -56,11 +66,13 @@
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/math/math.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				],
-				width: 1024
+				// width: 1024
 			});
 		</script>
+		<script src="css/theme/assets/kuleuven/js/slidestyles.js"></script>
 	</body>
 </html>
