@@ -279,9 +279,10 @@ body {
 
 .reveal .slide-number {
   font-size: 14pt;
-  right: 140px;
-  bottom: 1.5em;
-  background-color: rgba(24, 141, 176, 0.3); }
+  right: 124px;
+  bottom: 28px;
+  color: #188db0;
+  background-color: transparent; }
 
 .reveal .controls button {
   color: #1D8DB0; }

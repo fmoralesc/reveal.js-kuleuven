@@ -23,10 +23,13 @@ function setBackground(event) {
     currentslide = Reveal.getCurrentSlide();
     if (currentslide.classList.contains("title-slide")) {
 	setTitleBackground(event);
+	Reveal.configure({ slideNumber: false});
     } else if (currentslide.classList.contains("structure-slide")) {
 	setStructureBackground(event);
+	Reveal.configure({ slideNumber: false});
     } else {
 	setNormalBackground(event);
+	Reveal.configure({ slideNumber: true});
     };
 }
 
