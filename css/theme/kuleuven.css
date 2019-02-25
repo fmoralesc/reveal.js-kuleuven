@@ -281,9 +281,9 @@ body {
     color: #fff; }
 
 .reveal .slide-number {
-  font-size: 14pt;
+  font-size: 0.8em;
   right: 124px;
-  bottom: 28px;
+  bottom: 1em;
   color: #188db0;
   background-color: transparent; }
 
