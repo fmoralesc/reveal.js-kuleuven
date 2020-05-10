@@ -48,7 +48,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #10637D;
+  color: #1D8DB0;
   font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -295,10 +295,12 @@ body {
   color: #10637D; }
 
 .reveal .title {
-  padding-top: 12%; }
+  padding-top: 12%;
+  width: 1024px; }
 
 .reveal .subtitle {
-  padding-top: 2%; }
+  padding-top: 2%; 
+  width: 1024px; }
 
 .reveal div .speaker {
   padding-top: 15%;

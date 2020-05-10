@@ -19,7 +19,7 @@
 $mainFont: 'Ubuntu', sans-serif;
 $mainColor: #101010;
 $mainFontSize: 24pt;
-$headingColor: #10637D;
+$headingColor: #1D8DB0;
 $headingFont: 'Ubuntu', sans-serif;
 $headingFontWeight: 600;
 $headingTextShadow: none;
@@ -56,7 +56,7 @@ $heading4Size: 1.00em;
 	font-size: 0.8em;
 	right: 124px;
 	bottom: 1em;
-	color: rgba(24,141,176,1);
+	color: rgba(29,141,176,1);
 	background-color: transparent;
 }
 
@@ -70,15 +70,17 @@ $heading4Size: 1.00em;
 
 .reveal .progress {
     background: rgba(0,0,0,0.2);
-    color: #10637D;
+    color: #1D8DB0;
 }
 
 .reveal .title {
 	padding-top: 12%;
+	width: 1024px;
 }
 
 .reveal .subtitle {
 	padding-top: 2%;
+	width: 1024px;
 }
 
 .reveal div .speaker {
